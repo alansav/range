@@ -3,3 +3,5 @@
 **/.vs
 *.user
 project.lock.json
+*/nuget/*.dll
+*.nupkg
