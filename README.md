@@ -1,6 +1,6 @@
 # range
 
-This project is a .NET Core application.
+This project is a .NET Standard 2.0 Class Library.
 
 This project provides a class which can be used to model a range of type Generic and has a helper method InRange which returns a boolean if the value provided is within the range provided.
 
