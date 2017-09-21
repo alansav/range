@@ -1,20 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5FD6EF09-E5B4-4662-BA88-348F65A5EB20}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0B1E0ECC-3634-4E8E-97B4-75EF3F50EF6F}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Range", "src\Range\Range.xproj", "{753DC06D-95BF-4F1D-AEAB-EFB49A37605B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BDBF3FC1-D375-44CD-9653-FCF5F7F61DAF}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "UnitTests", "test\UnitTests\UnitTests.xproj", "{661867AF-EF3E-4442-B97A-DB3B04FA6DD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Range", "src\Range\Range.csproj", "{753DC06D-95BF-4F1D-AEAB-EFB49A37605B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "test\UnitTests\UnitTests.csproj", "{661867AF-EF3E-4442-B97A-DB3B04FA6DD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,5 +34,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{753DC06D-95BF-4F1D-AEAB-EFB49A37605B} = {5FD6EF09-E5B4-4662-BA88-348F65A5EB20}
 		{661867AF-EF3E-4442-B97A-DB3B04FA6DD5} = {BDBF3FC1-D375-44CD-9653-FCF5F7F61DAF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C3B402D-89E9-406F-A9B9-F88CB6E660C0}
 	EndGlobalSection
 EndGlobal
