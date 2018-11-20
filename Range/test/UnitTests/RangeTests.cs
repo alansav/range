@@ -1,7 +1,7 @@
 ﻿using System;
 using Xunit;
 
-namespace Savage
+namespace System.Numerics.Range
 {
     public class RangeTest
     {
@@ -18,6 +18,23 @@ namespace Savage
         public void TestFloorGreaterThanCeiling()
         {
             Assert.Throws<ArgumentException>(() => new Range<int>(100, 99));
+        }
+
+        [Fact]
+        public void TestFindClosestValue()
+        {
+            const int TEST_MIN_VALUE = 5;
+            const int TEST_MAX_VALUE = 100;
+            var range = new Range<int>(TEST_MIN_VALUE, TEST_MAX_VALUE);
+
+            const int TEST_INTERMEDIATE_CLOSEST_VALUE = 20;
+            Assert.Equal(TEST_INTERMEDIATE_CLOSEST_VALUE, range.FindClosestValue(TEST_INTERMEDIATE_CLOSEST_VALUE));
+
+            const int TEST_SUBMIN_CLOSEST_VALUE = 2;
+            Assert.Equal(TEST_MIN_VALUE, range.FindClosestValue(TEST_SUBMIN_CLOSEST_VALUE));
+
+            const int TEST_OVERMAX_CLOSEST_VALUE = 102;
+            Assert.Equal(TEST_MAX_VALUE, range.FindClosestValue(TEST_OVERMAX_CLOSEST_VALUE));
         }
 
         [Theory]
