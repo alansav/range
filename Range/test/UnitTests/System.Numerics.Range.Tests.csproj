@@ -4,6 +4,7 @@
     <VersionPrefix>1.1.0</VersionPrefix>
     <TargetFrameworks>netcoreapp2.0;net45;net46;</TargetFrameworks>
     <IsPackable>false</IsPackable>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
