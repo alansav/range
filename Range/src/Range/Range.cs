@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace System.Numerics
+namespace Savage.Range
 {
     public class Range<T> where T : IComparable<T>
     {
@@ -23,12 +23,18 @@ namespace System.Numerics
 
         public virtual T FindClosestValue(T value)
         {
-            if (value.CompareTo(this.Floor) < 0)
-                return this.Floor;
-            else if (value.CompareTo(this.Ceiling) > 0)
-                return this.Ceiling;
+            if (value.CompareTo(Floor) < 0)
+            {
+                return Floor;
+            }
+            else if (value.CompareTo(Ceiling) > 0)
+            {
+                return Ceiling;
+            }
             else
+            {
                 return value;
+            }
         }
     }
 }

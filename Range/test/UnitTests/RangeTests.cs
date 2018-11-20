@@ -1,7 +1,7 @@
 ﻿using System;
 using Xunit;
 
-namespace System.Numerics.Range
+namespace Savage.Range
 {
     public class RangeTest
     {

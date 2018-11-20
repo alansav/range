@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Range\System.Numerics.Range.csproj" />
+    <ProjectReference Include="..\..\src\Range\Savage.Range.csproj" />
   </ItemGroup>
 
 </Project>
