@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Linq;
-using System.Numerics;
 
-namespace Range
+namespace Savage.Range
 {
     public class DiscreteRange<T> : Range<T> where T : IComparable<T>
     {

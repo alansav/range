@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <VersionPrefix>1.1.0</VersionPrefix>
+    <TargetFrameworks>netcoreapp2.0;net45;net46;</TargetFrameworks>
+    <IsPackable>false</IsPackable>
+    <Version>2.0.0</Version>
+    <PackageId>Range.Tests</PackageId>
+    <Authors>Alan Savage</Authors>
+    <Company>Alan Savage</Company>
+    <Product />
+    <Copyright>© 2017 Alan Savage</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
+    <PackageReference Include="xunit" Version="2.2.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Range\Savage.Range.csproj" />
+  </ItemGroup>
+
+</Project>

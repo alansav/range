@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace System.Numerics
+namespace Savage.Range
 {
     public class Range<T> where T : IComparable<T>
     {

@@ -9,9 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BDBF3FC1-D375-44CD-9653-FCF5F7F61DAF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Numerics.Range", "src\Range\System.Numerics.Range.csproj", "{753DC06D-95BF-4F1D-AEAB-EFB49A37605B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Savage.Range", "src\Range\Savage.Range.csproj", "{753DC06D-95BF-4F1D-AEAB-EFB49A37605B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Numerics.Range.Tests", "test\UnitTests\System.Numerics.Range.Tests.csproj", "{661867AF-EF3E-4442-B97A-DB3B04FA6DD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Savage.Range.Tests", "test\UnitTests\Savage.Range.Tests.csproj", "{661867AF-EF3E-4442-B97A-DB3B04FA6DD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

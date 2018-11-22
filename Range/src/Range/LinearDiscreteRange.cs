@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Numerics;
 
-namespace Range
+namespace Savage.Range
 {
     public class LinearDiscreteRange : Range<decimal>
     {
