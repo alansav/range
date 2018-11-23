@@ -1,7 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <VersionPrefix>1.1.0</VersionPrefix>
     <TargetFrameworks>netstandard2.0;net45;net46;</TargetFrameworks>
     <Title>Range</Title>
     <Authors>Alan Savage</Authors>
@@ -10,11 +9,11 @@
     <PackageProjectUrl>https://github.com/alansav/range</PackageProjectUrl>
     <RepositoryUrl>https://github.com/alansav/range</RepositoryUrl>
     <PackageTags>Range;Generic</PackageTags>
-    <Version>3.0.0</Version>
+    <Version>{version}</Version>
     <PackageId>Range</PackageId>
     <Product>Savage.Range.Tests</Product>
-    <AssemblyVersion>3.0.0.0</AssemblyVersion>
-    <FileVersion>3.0.0.0</FileVersion>
+    <AssemblyVersion>{version}</AssemblyVersion>
+    <FileVersion>{version}</FileVersion>
   </PropertyGroup>
 
 </Project>
