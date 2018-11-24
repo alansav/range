@@ -51,7 +51,8 @@ namespace Savage.Range
         }
 
         
-        public void TestInRangeForDateTime(DateTime value, bool inRange)
+        [Fact]
+        public void TestInRangeForDateTime()
         {
             var range = new Range<DateTime>(new DateTime(2000, 1, 1), new DateTime(2009, 12, 31));
 
