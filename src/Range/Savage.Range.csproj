@@ -9,11 +9,8 @@
     <PackageProjectUrl>https://github.com/alansav/range</PackageProjectUrl>
     <RepositoryUrl>https://github.com/alansav/range</RepositoryUrl>
     <PackageTags>Range;Generic</PackageTags>
-    <Version>{version}</Version>
     <PackageId>Range</PackageId>
     <Product>Savage.Range.Tests</Product>
-    <AssemblyVersion>{version}</AssemblyVersion>
-    <FileVersion>{version}</FileVersion>
   </PropertyGroup>
 
 </Project>

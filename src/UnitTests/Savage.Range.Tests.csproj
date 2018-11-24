@@ -3,7 +3,6 @@
   <PropertyGroup>
     <TargetFrameworks>netcoreapp2.0;net45;net46;</TargetFrameworks>
     <IsPackable>false</IsPackable>
-    <Version>{version}</Version>
     <PackageId>Range.Tests</PackageId>
     <Authors>Alan Savage</Authors>
     <Company>Alan Savage</Company>
