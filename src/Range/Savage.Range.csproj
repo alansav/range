@@ -10,7 +10,13 @@
     <RepositoryUrl>https://github.com/alansav/range</RepositoryUrl>
     <PackageTags>Range;Generic</PackageTags>
     <PackageId>Range</PackageId>
-    <Product>Savage.Range.Tests</Product>
+    <Product>Savage.Range</Product>
+    <!-- Version elements are intentionally empty as they are provided by the build process-->
+    <Version></Version>
+    <PackageVersion></PackageVersion>
+    <AssemblyVersion></AssemblyVersion>
+    <FileVersion></FileVersion>
+    <InformationalVersion></InformationalVersion>
   </PropertyGroup>
 
 </Project>
